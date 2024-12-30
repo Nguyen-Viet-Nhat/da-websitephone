@@ -19,7 +19,8 @@
                     <div class="col-sm-6">
                         <div class="header-top-dropdown">
                             <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     English
                                 </button>
                                 <ul class="dropdown-menu">
@@ -29,7 +30,8 @@
                                 </ul>
                             </div>
                             <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     USD
                                 </button>
                                 <ul class="dropdown-menu">
@@ -74,7 +76,7 @@
                                 </a>
                             </div>
                             <ul class="mainmenu">
-                            <li><a href="index.php">Trang chủ</a></li>
+                                <li><a href="index.php">Trang chủ</a></li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Danh mục sản phẩm</a>
                                     <ul class="axil-submenu">
@@ -111,7 +113,7 @@
                                 if (isset($_SESSION['tai_khoan'])) {
                                     extract($_SESSION['tai_khoan']);
 
-                                ?>
+                                    ?>
                                     <div class="my-account-dropdown">
                                         <span class="title">Xin chào: <?= $ten_dang_nhap ?></span>
 
@@ -152,7 +154,8 @@
                                         <div class="login-btn">
                                             <a href="index.php?act=dangnhap1" class="axil-btn btn-bg-primary">Đăng nhập</a>
                                         </div>
-                                        <div class="reg-footer text-center">Bạn có tài khoản chưa? <a href="index.php?act=dangkyform" class="btn-link">Đăng ký tại đây</a></div>
+                                        <div class="reg-footer text-center">Bạn có tài khoản chưa? <a
+                                                href="index.php?act=dangkyform" class="btn-link">Đăng ký tại đây</a></div>
                                     </div>
                                 <?php } ?>
 
@@ -207,7 +210,7 @@
                             <div class="contact-form">
                                 <h3 class="title mb--10">Chúng tôi muốn nghe từ bạn</h3>
                                 <p>Nếu bạn có phản hồi gì hãy liên hệ với chúng tôi</p>
-                                <form method="POST" action="index.php?act=lienhe" >
+                                <form method="POST" action="index.php?act=lienhe">
                                     <div class="row row--10">
                                         <div class="col-lg-4">
                                             <div class="form-group">
@@ -230,7 +233,8 @@
                                         <div class="col-12">
                                             <div class="form-group">
                                                 <label for="contact-message">Lời nhắn của bạn</label>
-                                                <textarea name="noidung" id="contact-message" cols="1" rows="2"></textarea>
+                                                <textarea name="noidung" id="contact-message" cols="1"
+                                                    rows="2"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
@@ -240,15 +244,15 @@
                                         </div>
                                     </div>
                                 </form>
-                                
+
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="contact-location mb--40">
                                 <h4 class="title mb--20">Cửa hàng của chúng tôi</h4>
                                 <span class="address mb--20">Trường cao đẳng FPT Polytechnic</span>
-                                <span class="phone">Số điện thoại: 0379648268</span>
-                                <span class="email">Email: quyndph38584@gmail.com</span>
+                                <span class="phone">Số điện thoại: 0845662003</span>
+                                <span class="email">Email: nhatnvph41576@fpt.edu.vn</span>
                             </div>
                             <div class="contact-career mb--40">
                                 <h4 class="title mb--20">Nghề nghiệp</h4>
@@ -256,7 +260,7 @@
                             </div>
                             <div class="opening-hour">
                                 <h4 class="title mb--20">Thời gian mở cửa:</h4>
-                                <p>Thứ 2  đến Thứ 7: 9h - 10h
+                                <p>Thứ 2 đến Thứ 7: 9h - 10h
                                     <br> Chủ nhật: 10h - 18h
                                 </p>
                             </div>
@@ -267,7 +271,10 @@
                 <div class="axil-google-map-wrap axil-section-gap pb--0">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                        <iframe width="1080" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.805073873665!2d105.73874749999999!3d21.0404841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134550ab1db2433%3A0x9febb50e17509deb!2zMTMgUC4gVHLhu4tuaCBWxINuIELDtCwgWHXDom4gUGjGsMahbmcsIE5hbSBU4burIExpw6ptLCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1701083284494!5m2!1svi!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
+                            <iframe width="1080" height="500" id="gmap_canvas"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.805073873665!2d105.73874749999999!3d21.0404841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134550ab1db2433%3A0x9febb50e17509deb!2zMTMgUC4gVHLhu4tuaCBWxINuIELDtCwgWHXDom4gUGjGsMahbmcsIE5hbSBU4burIExpw6ptLCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1701083284494!5m2!1svi!2s"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <!-- End Google Map Area  -->
@@ -344,12 +351,12 @@
                         </div> -->
                             <div class="inner">
                                 <p>13 phố Trịnh Văn Bô <br>
-                                phường Phương Canh, Nam Từ Liêm  <br>
-                                TP Hà Nội.
+                                    phường Phương Canh, Nam Từ Liêm <br>
+                                    TP Hà Nội.
                                 </p>
                                 <ul class="support-list-item">
-                                    <li><a href="#"><i class="fal fa-envelope-open"></i> tunvph36486@fpt.edu.vn</a></li>
-                                    <li><a href="#"><i class="fal fa-phone-alt"></i> 0967725130</a></li>
+                                    <li><a href="#"><i class="fal fa-envelope-open"></i> nhatnvph41576@fpt.edu.vn</a></li>
+                                    <li><a href="#"><i class="fal fa-phone-alt"></i> 0845662003</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
                             </div>
@@ -401,7 +408,8 @@
                                             <img src="views/Client/assets/images/others/app-store.png" alt="App Store">
                                         </a>
                                         <a href="#">
-                                            <img src="views/Client/assets/images/others/play-store.png" alt="Play Store">
+                                            <img src="views/Client/assets/images/others/play-store.png"
+                                                alt="Play Store">
                                         </a>
                                     </div>
                                 </div>
@@ -429,12 +437,14 @@
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-left d-flex flex-wrap justify-content-center">
                             <ul class="quick-link">
-                                <li>© 2023. All rights reserved by <a target="_blank" href="https://axilthemes.com/">Axilthemes</a>.</li>
+                                <li>© 2023. All rights reserved by <a target="_blank"
+                                        href="https://axilthemes.com/">Axilthemes</a>.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
-                        <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
+                        <div
+                            class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
                             <span class="card-text">Accept For</span>
                             <ul class="payment-icons-bottom quick-link">
                                 <li><img src="views/Client/assets/images/icons/cart/cart-1.png" alt="paypal cart"></li>
@@ -477,7 +487,8 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="far fa-times"></i></button>
                 </div>
                 <div class="modal-body">
                     <div class="single-product-thumb">
@@ -485,36 +496,43 @@
                             <div class="col-lg-7 mb--40">
                                 <div class="row">
                                     <div class="col-lg-10 order-lg-2">
-                                        <div class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
+                                        <div
+                                            class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
                                             <div class="thumbnail">
-                                                <img src="views/Client/assets/images/product/product-big-01.png" alt="Product Images">
+                                                <img src="views/Client/assets/images/product/product-big-01.png"
+                                                    alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="views/Client/assets/images/product/product-big-01.png" class="popup-zoom">
+                                                    <a href="views/Client/assets/images/product/product-big-01.png"
+                                                        class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="views/Client/assets/images/product/product-big-02.png" alt="Product Images">
+                                                <img src="views/Client/assets/images/product/product-big-02.png"
+                                                    alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="views/Client/assets/images/product/product-big-02.png" class="popup-zoom">
+                                                    <a href="views/Client/assets/images/product/product-big-02.png"
+                                                        class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="views/Client/assets/images/product/product-big-03.png" alt="Product Images">
+                                                <img src="views/Client/assets/images/product/product-big-03.png"
+                                                    alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="views/Client/assets/images/product/product-big-03.png" class="popup-zoom">
+                                                    <a href="views/Client/assets/images/product/product-big-03.png"
+                                                        class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
@@ -524,13 +542,16 @@
                                     <div class="col-lg-2 order-lg-1">
                                         <div class="product-small-thumb small-thumb-wrapper">
                                             <div class="small-thumb-img">
-                                                <img src="views/Client/assets/images/product/product-thumb/thumb-08.png" alt="thumb image">
+                                                <img src="views/Client/assets/images/product/product-thumb/thumb-08.png"
+                                                    alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="views/Client/assets/images/product/product-thumb/thumb-07.png" alt="thumb image">
+                                                <img src="views/Client/assets/images/product/product-thumb/thumb-07.png"
+                                                    alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="views/Client/assets/images/product/product-thumb/thumb-09.png" alt="thumb image">
+                                                <img src="views/Client/assets/images/product/product-thumb/thumb-09.png"
+                                                    alt="thumb image">
                                             </div>
                                         </div>
                                     </div>
@@ -554,7 +575,9 @@
                                             <li><i class="fal fa-check"></i>Free delivery available</li>
                                             <li><i class="fal fa-check"></i>Sales 30% Off Use Code: MOTIVE30</li>
                                         </ul>
-                                        <p class="description">In ornare lorem ut est dapibus, ut tincidunt nisi pretium. Integer ante est, elementum eget magna. Pellentesque sagittis dictum libero, eu dignissim tellus.</p>
+                                        <p class="description">In ornare lorem ut est dapibus, ut tincidunt nisi
+                                            pretium. Integer ante est, elementum eget magna. Pellentesque sagittis
+                                            dictum libero, eu dignissim tellus.</p>
 
                                         <div class="product-variations-wrapper">
 
@@ -563,11 +586,14 @@
                                                 <h6 class="title">Colors:</h6>
                                                 <div class="color-variant-wrapper">
                                                     <ul class="color-variant mt--0">
-                                                        <li class="color-extra-01 active"><span><span class="color"></span></span>
+                                                        <li class="color-extra-01 active"><span><span
+                                                                    class="color"></span></span>
                                                         </li>
-                                                        <li class="color-extra-02"><span><span class="color"></span></span>
+                                                        <li class="color-extra-02"><span><span
+                                                                    class="color"></span></span>
                                                         </li>
-                                                        <li class="color-extra-03"><span><span class="color"></span></span>
+                                                        <li class="color-extra-03"><span><span
+                                                                    class="color"></span></span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -597,8 +623,11 @@
 
                                             <!-- Start Product Action  -->
                                             <ul class="product-action d-flex-center mb--0">
-                                                <li class="add-to-cart"><a href="cart.html" class="axil-btn btn-bg-primary">Add to Cart</a></li>
-                                                <li class="wishlist"><a href="wishlist.html" class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a></li>
+                                                <li class="add-to-cart"><a href="cart.html"
+                                                        class="axil-btn btn-bg-primary">Add to Cart</a></li>
+                                                <li class="wishlist"><a href="wishlist.html"
+                                                        class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a>
+                                                </li>
                                             </ul>
                                             <!-- End Product Action  -->
 
@@ -622,7 +651,8 @@
             <div class="card-header">
                 <form action="#">
                     <div class="input-group">
-                        <input type="search" class="form-control" name="prod-search" id="prod-search" placeholder="Write Something....">
+                        <input type="search" class="form-control" name="prod-search" id="prod-search"
+                            placeholder="Write Something....">
                         <button type="submit" class="axil-btn btn-bg-primary"><i class="far fa-search"></i></button>
                     </div>
                 </form>
@@ -636,18 +666,19 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="views/Client/assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="views/Client/assets/images/product/electric/product-09.png"
+                                    alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
                             <div class="product-rating">
                                 <span class="rating-icon">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fal fa-star"></i>
-                            </span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fal fa-star"></i>
+                                </span>
                                 <span class="rating-number"><span>100+</span> Reviews</span>
                             </div>
                             <h6 class="product-title"><a href="single-product.html">Media Remote</a></h6>
@@ -664,18 +695,19 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="views/Client/assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="views/Client/assets/images/product/electric/product-09.png"
+                                    alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
                             <div class="product-rating">
                                 <span class="rating-icon">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fal fa-star"></i>
-                            </span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fal fa-star"></i>
+                                </span>
                                 <span class="rating-number"><span>100+</span> Reviews</span>
                             </div>
                             <h6 class="product-title"><a href="single-product.html">Media Remote</a></h6>
@@ -707,18 +739,20 @@
                 <ul class="cart-item-list">
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product.html"><img src="views/Client/assets/images/product/electric/product-01.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product.html"><img
+                                    src="views/Client/assets/images/product/electric/product-01.png"
+                                    alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
                             <div class="product-rating">
                                 <span class="icon">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
                                 <span class="rating-number">(64)</span>
                             </div>
                             <h3 class="item-title"><a href="single-product-3.html">Wireless PS Handler</a></h3>
@@ -730,18 +764,20 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="views/Client/assets/images/product/electric/product-02.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-2.html"><img
+                                    src="views/Client/assets/images/product/electric/product-02.png"
+                                    alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
                             <div class="product-rating">
                                 <span class="icon">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
                                 <span class="rating-number">(4)</span>
                             </div>
                             <h3 class="item-title"><a href="single-product-2.html">Gradient Light Keyboard</a></h3>
@@ -753,18 +789,20 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="views/Client/assets/images/product/electric/product-03.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-3.html"><img
+                                    src="views/Client/assets/images/product/electric/product-03.png"
+                                    alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
                             <div class="product-rating">
                                 <span class="icon">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-							</span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
                                 <span class="rating-number">(6)</span>
                             </div>
                             <h3 class="item-title"><a href="single-product.html">HD CC Camera</a></h3>
@@ -789,6 +827,6 @@
         </div>
     </div>
 
-    
+
 
 </body>
